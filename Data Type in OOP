@@ -16,4 +16,9 @@ int main()
 	float d;
 	cout<< "size of float "<<sizeof (d)<<endl;
 	
+	short int si;    // can use the modify the length using modifier 
+	long int li;     
+	cout<< "size of short int "<<sizeof (si)<<endl;
+	cout<< "size of long int "<<sizeof (li)<<endl;
+	
 }
