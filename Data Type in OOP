@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int a; // declaration
+	a = 12; // initialization 
+	cout<< "size of int "<<sizeof(a)<<endl;
+		
+	char b;
+	cout<< "size of char "<<sizeof(b)<<endl;
+		
+	bool c;
+	cout<< "size of bool "<<sizeof (c)<<endl;
+		
+	float d;
+	cout<< "size of float "<<sizeof (d)<<endl;
+	
+}
